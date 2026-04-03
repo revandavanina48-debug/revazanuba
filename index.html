@@ -404,6 +404,7 @@
               <defs><linearGradient id="g1" x1="0" x2="1"><stop offset="0" stop-color="#E8F4FF"/><stop offset="1" stop-color="#FFF0F6"/></linearGradient></defs>
               <rect x="0" y="0" width="560" height="360" rx="24" fill="url(#g1)" />
               <g transform="translate(40,40)">
+			  
                 <circle cx="460" cy="60" r="40" fill="#fff" opacity="0.5" />
                 <ellipse cx="220" cy="140" rx="100" ry="90" fill="#FFF" opacity="0.9" />
                 <circle cx="120" cy="120" r="40" fill="#FFDEE9" opacity="0.9" />
@@ -679,6 +680,13 @@ Kesehatan mental tidak hanya berarti bebas dari gangguan, tetapi juga mencakup k
             <li><strong>CSS3 Murni:</strong> Styling, tata letak grid/flex, dan penerapan desain responsif serta CSS Variables untuk theming.</li>
             <li><strong>JavaScript Murni (Vanilla JS):</strong> Mengimplementasikan SPA routing, Quiz logic, dan Chatbot interaction tanpa Framework JS kompleks.</li>
             <li><strong>CSS Library (Optional):</strong> Untuk menekankan kemampuan membangun desain dari nol.</li>
+          </ul>
+		  
+		  <h3 style="margin-top: 30px;">Media sosial</h3>
+          <p>Hubungi kami mengenai masalah pada website ini</p>
+		  <ul class="styled-list">
+            <li><strong>Instagram:</strong> @mindbloowweb </li>
+			<li><strong>Gmail:</strong> zynaiva3@gmail.com </li>
           </ul>
 
           <h3 style="margin-top: 30px;">Kreator</h3>
@@ -1071,15 +1079,44 @@ Kesehatan mental tidak hanya berarti bebas dari gangguan, tetapi juga mencakup k
       const responses = {
         sedih: [
           "Aku turut merasakan apa yang kamu rasakan. Tidak apa-apa untuk merasa sedih. Coba luangkan 5 menit untuk menuliskan apa pun yang kamu pikirkan (journaling). Kamu hebat karena bertahan sejauh ini. 📝",
-          "Denganku kamu aman. **Kesedihanmu valid**. Bisakah kamu peluk dirimu sebentar? Mengizinkan diri merasakan itu adalah langkah awal penyembuhan. Apa hal kecil yang bisa membuatmu tersenyum hari ini?",
+          "Denganku kamu aman. Kesedihanmu valid. Bisakah kamu peluk dirimu sebentar? Mengizinkan diri merasakan itu adalah langkah awal penyembuhan. Apa hal kecil yang bisa membuatmu tersenyum hari ini?",
           "Perasaan ini berat ya. Ingat, emosi itu seperti ombak, dia datang dan pergi. Jangan mencoba melawan kesedihanmu, biarkan saja dia lewat. Aku di sini, menemanimu sampai ombak itu surut. Cerita lagi yuk. **Ingat, selalu ada hari esok yang lebih baik**.",
-          "Sulit sekali ya rasanya. Untuk hari ini, biarkan saja. Tapi besok, aku tantang kamu melakukan satu hal kecil yang pernah kamu nikmati, meski hanya 5 menit. Fokus pada **pemulihan kecil**.",
+          "Sulit sekali ya rasanya. Untuk hari ini, biarkan saja. Tapi besok, aku tantang kamu melakukan satu hal kecil yang pernah kamu nikmati, meski hanya 5 menit. Fokus pada pemulihan kecil.",
+		  "Wajar jika kamu merasa berat hari ini. Apa hal yang paling menguras energimu?",
+		  "Menangis adalah bentuk pelepasan. Bagaimana perasaanmu setelah membiarkan air mata itu mengalir?",
+		  "Kesedihan sering kali datang membawa pesan. Jika rasa sedihmu bisa bicara, apa yang ingin ia sampaikan?",
+		  "Sepertinya kamu sedang membawa beban yang cukup besar. Apakah kamu merasa harus terlihat kuat di depan orang lain?",
+		  "Aku di sini mendengarkanmu. Bagian mana dari situasi ini yang paling menyakitkan bagimu?",
+		  "Tidak apa-apa untuk tidak menjadi 'oke' saat ini. Apa satu hal kecil yang biasanya membuatmu merasa sedikit lebih tenang?",
+		  "Rasa kehilangan itu nyata. Bagaimana cara terbaik bagiku untuk menemanimu saat ini?",
+		  "Aku melihatmu sedang berjuang. Apakah kamu merasa orang-orang di sekitarmu memahami apa yang kamu alami?",
+		  "Kadang kata-kata tidak cukup. Mau mencoba menarik napas bersamaku sejenak?",
+		  "Kamu tidak harus buru-buru sembuh. Seberapa besar ruang yang kamu berikan untuk dirimu sendiri hari ini?",
+		  "Kesedihan ini terasa sangat dalam ya? Kapan terakhir kali kamu merasa benar-benar didengar?",
+		  "Aku menghargai kejujuranmu atas perasaan ini. Apakah ada sesuatu yang bisa kita lakukan bersama untuk meringankannya?",
+		  "Tampak seperti awan mendung yang sangat tebal. Apa yang biasanya membantumu melihat sedikit cahaya di baliknya?",
+		  "Pahit memang, tapi perasaan ini valid. Bagaimana caramu memperlakukan dirimu sendiri hari ini?",
+		  "Aku perhatikan suaramu terdengar lelah. Apakah kamu sudah mendapatkan dukungan yang kamu butuhkan?",
         ],
         cemas: [
           "Terlihat kamu merasa cemas. Ingat untuk bernapas. Tarik napas 4 detik, tahan 4 detik, hembuskan 4 detik**. Lakukan 3 kali. Apakah kamu ingin aku pandu langkah-langkah relaksasi lainnya?",
           "Kecemasan bisa terasa seperti alarm yang berlebihan. Coba lakukan teknik 'grounding' 5-4-3-2-1. Ini akan membantumu kembali ke saat ini. Sebutkan 5 hal yang kamu lihat. Ayo kita coba.",
           "Wajar jika kamu merasa panik, tetapi ini akan berlalu. Ingat, kekhawatiranmu saat ini hanyalah 'pikiran', bukan 'fakta'. Apa yang menjadi pemicu utamamu saat ini?",
           "Aku tahu pikiranmu berlari kencang. Coba tangkap satu pikiran negatifmu. Sekarang, tanyakan pada diri sendiri: 'Apa buktinya ini benar?' dan 'Apa yang paling mungkin terjadi?' Tantang pikiranmu. 🧠",
+		  "Pikiranmu terasa sangat cepat ya? Mari kita coba perlambat sejenak, apa satu hal yang bisa kamu lihat di depanmu sekarang?",
+	      "Kecemasan sering kali tentang masa depan. Apa ketakutan terbesar yang muncul dalam pikiranmu saat ini?",
+          "Kamu merasa seolah sesuatu yang buruk akan terjadi. Seberapa sering pikiran seperti ini terbukti benar di masa lalu?",
+          "Napasmu terasa pendek. Maukah kamu mencoba teknik pernapasan kotak denganku agar detak jantungmu lebih stabil?",
+          "Sepertinya kamu sedang mencoba mengontrol segalanya. Apa satu hal yang benar-benar bisa kamu kendalikan saat ini?",
+          "Dunia terasa tidak aman sekarang. Apa yang biasanya membuatmu merasa memiliki tempat berpijak yang kuat?",
+          "Kecemasan itu melelahkan. Berapa banyak energi yang habis hanya untuk memikirkan skenario 'bagaimana jika'?",
+          "Aku mendengar kekhawatiranmu. Jika kita memecah masalah besar ini, langkah kecil apa yang bisa kita ambil pertama kali?",
+          "Rasanya seperti terjebak dalam badai pikiran. Maukah kamu mencoba menuliskan pikiran itu agar keluar dari kepalamu?",
+          "Kamu tidak sendirian menghadapi rasa takut ini. Siapa orang yang paling kamu percayai untuk berbagi beban ini?",
+          "Pikiranmu sangat kreatif dalam menciptakan skenario buruk. Bisakah kita mencoba membuat satu skenario baik sebagai penyeimbang?",
+          "Kecemasan ini mencoba melindungimu, tapi mungkin caranya terlalu keras. Apa yang ingin kamu katakan pada rasa cemasmu itu?",
+          "Kamu tampak sangat gelisah. Apa aktivitas fisik sederhana yang biasanya membantumu melepaskan energi berlebih ini?",
+	      "Ketidakpastian memang menakutkan. Bagaimana caramu berdamai dengan hal-hal yang belum ada jawabannya?",
         ],
         lelah: [
           "Kelelahan itu wajar. Tubuh dan pikiranmu butuh istirahat. Mungkin sudah waktunya kamu menetapkan batasan yang lebih jelas di tempat kerja atau aktivitasmu. Batasan yang sehat itu bukan egois, lho. 🔋",
@@ -1098,6 +1135,17 @@ Kesehatan mental tidak hanya berarti bebas dari gangguan, tetapi juga mencakup k
           "Kemarahan adalah sinyal bahwa ada batasan yang dilanggar atau kebutuhan yang tidak terpenuhi. Tarik napas. Coba identifikasi: Apa yang sebenarnya kamu butuhkan saat ini? Kedamaian? Pengakuan?",
           "Marah itu sehat, asal disalurkan dengan tepat. Coba ubah energi itu: lakukan olahraga ringan atau berjalan cepat. Setelah itu, kita bicara lagi, ya. 💪",
           "Seringkali, di balik kemarahan ada rasa sakit. Bisakah kamu temukan, rasa sakit apa yang tersembunyi di balik amarah ini? Mari kita selesaikan akar masalahnya.",
+		   "Kemarahanmu sangat kuat. Apa hal spesifik yang menjadi pemicu utamanya?",
+		   "Kamu merasa diperlakukan tidak adil. Apa standar keadilan yang menurutmu telah dilanggar?",
+		   "Marah sering kali menutupi rasa sakit hati. Adakah bagian dari dirimu yang merasa terluka di balik amarah ini?",
+		   "Energimu meluap-luap. Maukah kamu mencoba menyalurkannya lewat gerakan fisik atau tulisan sebelum kita bicara lebih jauh?",
+		   "Kamu ingin meledak. Apa konsekuensi yang paling kamu khawatirkan jika kamu kehilangan kendali?",
+		   "Suaramu meninggi karena merasa tidak didengar. Bagaimana cara terbaik bagiku untuk menunjukkan bahwa aku menyimakmu?",
+		   "Seseorang telah melewati batasanmu. Bagaimana caramu mengomunikasikan batasan itu tanpa harus menyerang?",
+		   "Kamu merasa sangat kecewa pada seseorang. Apakah ekspektasimu terhadap mereka sudah dikomunikasikan sebelumnya?",
+		   "Marah itu valid, tapi cara mengekspresikannya bisa dipilih. Bagaimana caramu menenangkan diri sebelum mengambil keputusan?",
+		   "Kamu merasa ingin membalas perbuatan mereka. Apakah itu akan benar-benar menyembuhkan rasa sakitmu atau justru menambah masalah?",
+		   "Rasanya seperti ada api di dada. Apa yang biasanya membantumu untuk mendinginkan suasana hati?",
         ],
         bingung: [
           "Merasa bingung itu wajar ketika terlalu banyak hal terjadi. Coba kita buat daftar: Apa 3 hal yang paling mengganggu pikiranmu saat ini? Memilah-milah akan membantu mengurangi kebingungan.",
@@ -1124,7 +1172,8 @@ Kesehatan mental tidak hanya berarti bebas dari gangguan, tetapi juga mencakup k
         default: [
           "Terima kasih sudah berbagi. Boleh ceritakan lebih banyak tentang hal yang sedang mengganggu pikiranmu? Aku siap mendengarkan. 💬",
           "Aku mendengarkanmu. Cerita apa pun, sekecil apa pun, itu penting. Sejak kapan kamu mulai merasakan ini?",
-          "Terkadang, hanya butuh waktu untuk mengatakan 'Aku tidak baik-baik saja'. Kamu sudah melakukannya, dan itu hebat. Apa yang membuatmu datang ke sini hari ini?",
+          "Terkadang, hanya butuh waktu untuk mengatakan 'Aku tidak baik-baik saja'. Kamu sudah melakukannya, dan itu hebat.",
+		  "Semangat selalu, aku tau kamu hebat dan kuat.",
           "Aku mengerti kamu sedang mencari dukungan. Jika kamu tidak tahu harus mulai dari mana, bagaimana kalau kamu jelaskan perasaan fisik yang kamu rasakan saat ini (misal: tegang di bahu, sakit perut)?",
         ]
       };
